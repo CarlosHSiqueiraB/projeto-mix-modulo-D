@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Mix</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+
+<body">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hora.html">Projeto Horas</a></li>
+            <li><a href="idade.html">Projeto Idade</a></li>
+        </ul>
+    </nav>
+
+    <div id="centro">
+        <h1>Verificador de idade</h1>
+        <label for="idade">Informe o ano de nascimento: <input type="number" id="idade"></label> 
+        <div>
+            <label>Sexo: </label>
+            <input type="radio" name="sex" id="masc"> <label for="masc">Masculino</label>
+            <input type="radio" name="sex" id="fem"> <label for="fem">Feminino</label>
+        </div>
+        <input type="button" value="Verificar" id="botao" onclick="verificar()">
+        <div id="resul">
+            <p>Preencha os dados acima!</p>
+        </div>
+    </div>
+
+    <script src="/estudos - 5 projeto mix/js/verificar.js"></script>
+    </body>
+
+</html>
